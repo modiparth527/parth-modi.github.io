@@ -8,27 +8,27 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Parth's Homepage"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Parth Modi"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://github.com/modiparth527/parth-modi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "modiparth527/parth-modi.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "20240711_123555.jpg"
-  name             : "Parth Modi"
+  avatar           : "profile.png"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Content Creator/ Enthusiat to Integrate AI and Healthcare"
-  location         : "Darmstadt Germnany"
-  employer         : "TU Darmstadt"
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "modiparth527@gmail.com" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

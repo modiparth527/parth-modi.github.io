@@ -25,7 +25,7 @@ author:
   name             : "Parth Modi"
   pronouns         : # example: "she/her"  
   bio              : "Multimodal Machine Learning/ AI in Healthcare"
-  location         : "Darmstadt Germany"
+  location         : "Darmstadt, Germany"
   employer         : "Technical University of Darmstadt"
   uri              : # URL
   email            : "modiparth527@gmail.com" 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : www.linkedin.com/in/parthmodi527
+  linkedin         : parthmodi527
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "https://www.youtube.com/@infinitysolutionsconceptbu8879/playlists"
+  youtube          : "@infinitysolutionsconceptbu8879/playlists"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings

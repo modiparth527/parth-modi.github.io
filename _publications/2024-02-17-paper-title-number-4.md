@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "A Data-driven Deep Learning Approach for Bitcoin Price Forecasting"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
+permalink: /publication/2023
+excerpt: 'This paper is about Preidction of Bitcoin price with Deep Learning'
+date: 2023-06-11
+venue: '2023 24th International Conference on Digital Signal Processing (DSP), Rhodes, Greece'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: 'P. D. Modi, K. Arshi, P. J. Kunz and A. M. Zoubir, "A Data-driven Deep Learning Approach for Bitcoin Price Forecasting," 2023 24th International Conference on Digital Signal Processing (DSP), Rhodes (Rodos), Greece, 2023, pp. 1-4, doi: 10.1109/DSP58604.2023.10167930. keywords: {Deep learning;Online banking;Neural networks;Bitcoin;Digital signal processing;Predictive models;Feature extraction;Machine Learning;Deep Learning;Neural Networks;Feature Extraction;Cryptocurrency;Price prediction},'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Bitcoin as a cryptocurrency has been one of the most important digital coins and the first decentralized digital currency. We propose a shallow Bidirectional-LSTM (Bi-LSTM) model, fed with feature engineered data using our proposed method to forecast bitcoin closing prices in a daily time frame. We compare the performance with that of other forecasting methods, and show that with the help of the proposed feature engineering method, a shallow deep neural network out-performs other popular price forecasting models.

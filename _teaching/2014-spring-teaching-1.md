@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Machine Learning and Data Science Content Creator/Lecturer"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate course/Post Graduate"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "YouTube"
+date: 2017-06-01
+location: "Darmstadt, Germany"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.

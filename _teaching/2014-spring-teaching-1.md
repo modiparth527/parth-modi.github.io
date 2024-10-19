@@ -37,7 +37,7 @@ I am on the mission to provide free education to all the students. Here you will
 - Visualization with Matplotlib and Seaborn
 
 ## 🎯 Get in Touch
-Feel free to reach out via [LinkedIn](https://github.com/your-profile) or connect with me in the comments section on YouTube. Let’s collaborate and grow together!
+Feel free to reach out via [LinkedIn](www.linkedin.com/in/parthmodi527) or connect with me in the comments section on YouTube. Let’s collaborate and grow together!
 
 ---
 

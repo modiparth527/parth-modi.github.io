@@ -10,19 +10,7 @@ location: "Darmstadt, Germany"
 
 I am on the mission to provide free education to all the students. Here you will get complete conceptual solution of any machine learning related queries and also solution for technical coding problems. It's a promise that you will get a success in your career especially in your Engineering career after thoroughly following my lectures. Our world is far away from the costly institutes serving education nowadays.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
-
 # Infinity Solutions Concept Builder
-
-Welcome to the **Infinity Solutions Concept Builder** GitHub portfolio!  
-I also run a YouTube channel where I create insightful content around **machine learning** and **data science**. Whether you're a beginner or an expert, my channel offers valuable resources to deepen your knowledge in this ever-evolving field.
 
 ## 🌟 About My YouTube Channel
 - **Channel Name:** Infinity Solutions Concept Builder
@@ -34,12 +22,13 @@ I also run a YouTube channel where I create insightful content around **machine 
   - Real-world applications of AI and ML
   - Tips on career development in data science
 
-[Visit my YouTube Channel here!](https://www.youtube.com/@infinitysolutionsconceptbu8879)
+[Visit my YouTube Channel here!](https://www.youtube.com/@infinitysolutionsconceptbu8879/playlists)
 
 ## 📊 Popular Playlists:
-- **Machine Learning Basics** - A comprehensive introduction to ML algorithms and concepts.
-- **Data Science Projects** - Step-by-step walkthroughs of real-world data science projects.
-- **AI in Practice** - Applications of AI in various industries and domains.
+- **[Getting Started with Computer Vision](https://www.youtube.com/watch?v=NGlYGPHegWs&list=PLsnPvYcFT2c9vJE7_urR6aFEWaO7VP4bC&pp=iAQB)** - Covers all the fundamental concepts to get started with Computer Vision (make sure to check out the comments!).
+- **[Machine Learning with Python Handson](https://www.youtube.com/watch?v=SWK6pG0B16s&list=PLsnPvYcFT2c_x3xUwvsQfs3QL4bm_3vTX&pp=iAQB)** - A comprehensive introduction to ML algorithms and concepts with python handson (Each ML algorithm is covered with all its use cases).
+- **[Deep Learning with Python Handson](https://www.youtube.com/watch?v=o4I_-DOxfwE&list=PLsnPvYcFT2c8Jr2DzOF-t3OlO9xlC9428&pp=iAQB)** - Step-by-step walkthroughs of deep learning methods (Starting from Basic intuition of Neuron).
+
 
 ## 🛠 Tools and Technologies Discussed:
 - Python, TensorFlow, PyTorch

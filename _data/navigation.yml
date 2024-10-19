@@ -6,20 +6,20 @@
 
 main:
 
-  - title: "CV"
-    url: /files/CV_PARTH_MODI_phd.pdf
-
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Teaching"
     url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "CV"
+    url: /files/CV_PARTH_MODI_phd.pdf
+
+  - title: "Publications"
+    url: /publications/
         
   # - title: "Blog Posts"
   #   url: /year-archive/

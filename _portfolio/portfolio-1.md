@@ -1,7 +1,12 @@
 ---
 title: "Cancer Diagnosis with Machine Learning"
-excerpt: "Short description of portfolio item number 1"<br/><img src='/images/Screenshot 2024-10-19 235828.png'>
+excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This portfolio project showcases the application of machine learning algorithms to aid in cancer diagnosis. By analyzing medical data, the model can assist in early detection, improving patient outcomes. The project involves dataset preparation, feature engineering, model selection (e.g., decision trees, SVM, neural networks), and performance evaluation.
+
+![Cancer Diagnosis Screenshot](/images/Screenshot_2024-10-19.png)
+
+Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
+ 

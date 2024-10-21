@@ -1,6 +1,6 @@
 ---
 title: "Cancer Diagnosis with Machine Learning"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/Screenshot 2024-10-19 235828.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src="/images/Screenshot 2024-10-19 235828.png">"
 collection: portfolio
 ---
 

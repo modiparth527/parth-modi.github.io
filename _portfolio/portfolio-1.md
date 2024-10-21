@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Cancer Diagnosis with Machine Learning"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/Screenshot 2024-10-19 235828.png'>"
 collection: portfolio
 ---
 

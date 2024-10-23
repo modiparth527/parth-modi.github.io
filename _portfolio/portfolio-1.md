@@ -7,7 +7,7 @@ collection: portfolio
 ## Problem Statement
 <div style="text-align: justify;">
 Cancer is a complex disease that varies significantly across individuals, making accurate diagnosis and treatment challenging. Traditional diagnostic methods often struggle to account for the intricate variations in genetic mutations and the vast amount of clinical information in medical records. This project aims to address these challenges by leveraging machine learning models to predict cancer classes using both gene variations and textual data from clinical reports, thereby improving diagnostic accuracy and assisting oncologists in early detection and personalized treatment planning.
-</div>
+
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
 <p align="center"><em>Figure 1: Problem Statement by Oncologist</em></p>
@@ -100,4 +100,4 @@ By utilizing these two different feature extraction techniques, we can explore v
 | SVM                                                  | 0.739          | 1.132       | 1.063         | 36.47%                       |
 
 *Baseline: Log loss of a Random Model - 2.5*
-
+</div>

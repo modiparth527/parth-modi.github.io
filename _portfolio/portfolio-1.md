@@ -4,11 +4,23 @@ excerpt: "Leveraging machine learning techniques to improve cancer diagnosis acc
 collection: portfolio
 ---
 
-This project focuses on predicting cancer classes using machine learning by analyzing both gene variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy and F1-score.
-
+1. Problem Statement
+Cancer is a complex disease that varies significantly across individuals, making accurate diagnosis and treatment challenging. Traditional diagnostic methods often struggle to account for the intricate variations in genetic mutations and the vast amount of clinical information in medical records. This project aims to address these challenges by leveraging machine learning models to predict cancer classes using both gene variations and textual data from clinical reports, thereby improving diagnostic accuracy and assisting oncologists in early detection and personalized treatment planning.
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
 <p align="center"><em>Figure 1: Problem Statement by Oncologist</em></p>
+
+### Sources
+
+1. [Forbes: A New Cancer Drug Helped Almost Everyone Who Took It—Almost](https://www.forbes.com/sites/matthewherper/2017/06/03/a-new-cancer-drug-helped-almost-everyone-who-took-it-almost-heres-what-it-teaches-us/#2a44ee2f6b25)
+2. [YouTube: Cancer Research Explained (Video 1)](https://www.youtube.com/watch?v=UwbuW7oK8rk)
+3. [YouTube: Cancer Diagnosis Techniques (Video 2)](https://www.youtube.com/watch?v=qxXRKVompI8)
+
+
+This project focuses on predicting cancer classes using machine learning by analyzing both gene variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy and F1-score.
+
+
+
 
 Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
  

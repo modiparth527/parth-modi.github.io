@@ -8,7 +8,8 @@ collection: portfolio
 This project showcases the application of machine learning algorithms to aid in cancer diagnosis. By analyzing medical data, the model can assist in early detection, improving patient outcomes. The project involves dataset preparation, feature engineering, model selection (e.g., decision trees, SVM, neural networks), and performance evaluation.
 
 
-![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png "Problem Statement by Oncologist")
+![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
+*Figure 1: Problem Statement by Oncologist*
 
 Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
  

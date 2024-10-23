@@ -41,8 +41,9 @@ Data preparation is a fundamental step in the machine learning workflow. It invo
 </div>
 
 ### 1. Gene Variation Dataset
-
+<div style="text-align: justify;">
 The gene variation dataset typically contains information on specific genetic mutations associated with different cancers. The preparation steps for this dataset include:
+</div>
 <div style="text-align: justify;">
 - <strong>Data Collection</strong>: In this project, we created a synthetic dataset that includes genetic information for several well-known cancer-related genes, such as <strong>BRCA1</strong>, <strong>BRCA2</strong>, <strong>TP53</strong>, <strong>EGFR</strong>, and <strong>KRAS</strong>. Each entry consists of the gene name, the specific mutation (variation), and a binary label indicating the presence or absence of a mutation.
 </div>
@@ -62,8 +63,14 @@ The text dataset consists of clinical notes or research articles that discuss ge
 </div>
 <div style="text-align: justify;">
 - <strong>Text Preprocessing</strong>: Preprocessing involves several steps to clean and prepare text data:
+</div>
+<div style="text-align: justify;">
   - <strong>Tokenization</strong>: Splitting the text into individual words or phrases (tokens).
+</div>
+<div style="text-align: justify;">
   - <strong>Removing Punctuation and Stop Words</strong>: Eliminating common words (e.g., "and," "the") and punctuation that do not contribute significant meaning to the text.
+  </div>
+<div style="text-align: justify;">
   - <strong>Lowercasing</strong>: Converting all text to lowercase to ensure uniformity.
 </div>
 
@@ -75,18 +82,30 @@ Using the `TfidfVectorizer`, we transform the text data into numerical features 
 </div>
 <div style="text-align: justify;">
 - <strong>Tokenization</strong>: Splitting the text into individual tokens.
+</div>
+<div style="text-align: justify;">
 - <strong>Term Frequency Calculation</strong>: Evaluating how often a term appears in a document.
+</div>
+<div style="text-align: justify;">
 - <strong>Inverse Document Frequency Calculation</strong>: Determining the importance of the term across the entire corpus.
+</div>
+<div style="text-align: justify;">
 - <strong>Feature Selection</strong>: Selecting the top 1000 terms based on their TF-IDF scores.
 </div>
 ### 2. BERT Pretrained Model
 <div style="text-align: justify;">
 For an alternative approach, we leverage the power of BERT (Bidirectional Encoder Representations from Transformers), a state-of-the-art language model pre-trained on vast amounts of text data. BERT captures the contextual meaning of words within sentences, enabling more nuanced understanding and representation of text. When using BERT, the text data is transformed into features as follows:
-
+</div>
+<div style="text-align: justify;">
 - <strong>Tokenization</strong>: BERT requires a specific tokenization process that splits text into subword units.
+</div>
+<div style="text-align: justify;">
 - <strong>Input Representation</strong>: The tokenized input is converted into token IDs and includes attention masks to distinguish between padding and actual tokens.
+</div>
+<div style="text-align: justify;">
 - <strong>Feature Extraction</strong>: The BERT model outputs rich contextual embeddings for each token in the input, which can then be aggregated (e.g., using mean pooling) to obtain a fixed-size vector representation for the entire text input.
-
+</div>
+<div style="text-align: justify;">
 By utilizing these two different feature extraction techniques, we can explore various model performance levels and leverage the strengths of both traditional and modern approaches to text data.
 </div>
 ## Model Training

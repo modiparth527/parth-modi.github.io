@@ -1,6 +1,6 @@
 ---
 title: "Cancer Diagnosis with Machine Learning"
-excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy." ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
+excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy.![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png "Problem Statement by Oncologist")" 
 collection: portfolio
 ---
 

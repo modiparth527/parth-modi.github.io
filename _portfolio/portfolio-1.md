@@ -7,7 +7,7 @@ collection: portfolio
 ## Problem Statement
 <div style="text-align: justify;">
 Cancer is a complex disease that varies significantly across individuals, making accurate diagnosis and treatment challenging. Traditional diagnostic methods often struggle to account for the intricate variations in genetic mutations and the vast amount of clinical information in medical records. This project aims to address these challenges by leveraging machine learning models to predict cancer classes using both gene variations and textual data from clinical reports, thereby improving diagnostic accuracy and assisting oncologists in early detection and personalized treatment planning.
-
+</div>
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
 <p align="center"><em>Figure 1: Problem Statement by Oncologist</em></p>
@@ -36,11 +36,11 @@ Cancer is a complex disease that varies significantly across individuals, making
 - **training_text**: (ID, Text)
 
 ## Data Preparation
-
+<div style="text-align: justify;">
 Data preparation is a fundamental step in the machine learning workflow. It involves cleaning, transforming, and organizing data into a format suitable for modeling. Here, we will detail the preparation process for both the gene variation dataset and the text dataset.
-
+</div>
 ### 1. Gene Variation Dataset
-
+<div style="text-align: justify;">
 The gene variation dataset typically contains information on specific genetic mutations associated with different cancers. The preparation steps for this dataset include:
 
 - **Data Collection**: In this project, we created a synthetic dataset that includes genetic information for several well-known cancer-related genes, such as **BRCA1**, **BRCA2**, **TP53**, **EGFR**, and **KRAS**. Each entry consists of the gene name, the specific mutation (variation), and a binary label indicating the presence or absence of a mutation.
@@ -48,9 +48,9 @@ The gene variation dataset typically contains information on specific genetic mu
 - **Data Cleaning**: In a real-world scenario, this step would involve removing duplicates, handling missing values, and ensuring that the data types are consistent. Since our synthetic dataset is small and structured, it does not require extensive cleaning.
 
 - **Data Splitting**: The dataset is divided into training and testing sets using an 80-20 split. This allows for the training of the model on one portion of the data while retaining another portion to evaluate its performance.
-
+</div>
 ### 2. Text Dataset
-
+<div style="text-align: justify;">
 The text dataset consists of clinical notes or research articles that discuss gene mutations and their links to cancer. The preparation steps for this dataset include:
 
 - **Text Collection**: Similar to the gene dataset, we created a synthetic dataset that contains text entries related to cancer and genetic mutations. Each entry is associated with a label indicating the presence of a mutation.
@@ -59,7 +59,7 @@ The text dataset consists of clinical notes or research articles that discuss ge
   - **Tokenization**: Splitting the text into individual words or phrases (tokens).
   - **Removing Punctuation and Stop Words**: Eliminating common words (e.g., "and," "the") and punctuation that do not contribute significant meaning to the text.
   - **Lowercasing**: Converting all text to lowercase to ensure uniformity.
-
+</div>
 ## Feature Extraction
 
 ### 1. TF-IDF Vectorizer
@@ -100,4 +100,4 @@ By utilizing these two different feature extraction techniques, we can explore v
 | SVM                                                  | 0.739          | 1.132       | 1.063         | 36.47%                       |
 
 *Baseline: Log loss of a Random Model - 2.5*
-</div>
+

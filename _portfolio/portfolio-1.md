@@ -6,7 +6,7 @@ collection: portfolio
 
 This portfolio project showcases the application of machine learning algorithms to aid in cancer diagnosis. By analyzing medical data, the model can assist in early detection, improving patient outcomes. The project involves dataset preparation, feature engineering, model selection (e.g., decision trees, SVM, neural networks), and performance evaluation.
 
-![Cancer Diagnosis Screenshot](https://github.com/modiparth527/parth-modi.github.io/tree/master/images/1.png)
+![Cancer Diagnosis Screenshot](./1.png)
 
 Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
  

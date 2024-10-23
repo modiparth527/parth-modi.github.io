@@ -8,7 +8,7 @@ This project showcases the application of machine learning algorithms to aid in 
 
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
-*Figure 1: Problem Statement by Oncologist*
+<p align="center"><em>Figure 1: Problem Statement by Oncologist</em></p>
 
 Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
  

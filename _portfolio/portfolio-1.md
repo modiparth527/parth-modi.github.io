@@ -54,11 +54,13 @@ The gene variation dataset typically contains information on specific genetic mu
 </div>
 
 ### 2. Text Dataset
-
+<div style="text-align: justify;">
 The text dataset consists of clinical notes or research articles that discuss gene mutations and their links to cancer. The preparation steps for this dataset include:
+</div>
 <div style="text-align: justify;">
 - <strong>Text Collection</strong>: Similar to the gene dataset, we created a synthetic dataset that contains text entries related to cancer and genetic mutations. Each entry is associated with a label indicating the presence of a mutation.
-
+</div>
+<div style="text-align: justify;">
 - <strong>Text Preprocessing</strong>: Preprocessing involves several steps to clean and prepare text data:
   - <strong>Tokenization</strong>: Splitting the text into individual words or phrases (tokens).
   - <strong>Removing Punctuation and Stop Words</strong>: Eliminating common words (e.g., "and," "the") and punctuation that do not contribute significant meaning to the text.
@@ -70,7 +72,8 @@ The text dataset consists of clinical notes or research articles that discuss ge
 ### 1. TF-IDF Vectorizer
 <div style="text-align: justify;">
 Using the `TfidfVectorizer`, we transform the text data into numerical features suitable for machine learning models. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure that reflects the importance of a word in a document relative to a collection of documents (corpus). By limiting the number of features to the top 1000 based on TF-IDF values, we reduce dimensionality and focus on the most relevant terms. This process involves:
-
+</div>
+<div style="text-align: justify;">
 - <strong>Tokenization</strong>: Splitting the text into individual tokens.
 - <strong>Term Frequency Calculation</strong>: Evaluating how often a term appears in a document.
 - <strong>Inverse Document Frequency Calculation</strong>: Determining the importance of the term across the entire corpus.

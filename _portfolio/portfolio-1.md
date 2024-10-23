@@ -4,7 +4,7 @@ excerpt: "Leveraging machine learning techniques to improve cancer diagnosis acc
 collection: portfolio
 ---
 
-This project showcases the application of machine learning algorithms to aid in cancer diagnosis. By analyzing medical data, the model can assist in early detection, improving patient outcomes. The project involves dataset preparation, feature engineering, model selection (e.g., decision trees, SVM, neural networks), and performance evaluation.
+This project focuses on predicting cancer classes using machine learning by analyzing both gene variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy and F1-score.
 
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)

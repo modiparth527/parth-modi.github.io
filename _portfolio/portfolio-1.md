@@ -24,27 +24,24 @@ Cancer is a complex disease that varies significantly across individuals, making
 * Probability of a data-point belonging to each class is needed.
 
 ## Data Set Overview
-- Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
-- We have two data files: one contains the information about the genetic mutations and the other contains the clinical evidence (text) that  human experts/pathologists use to classify the genetic mutations. 
-- Both these data files are have a common column called ID
-- <p> 
-    Data file's information:
-    <ul> 
-        <li>
-        training_variants (ID , Gene, Variations, Class)
-        </li>
-        <li>
-        training_text (ID, Text)
-        </li>
-    </ul>
-</p>
 
-This project focuses on predicting cancer classes using machine learning by analyzing gene, variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene, variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.
+- **Source**: [Kaggle: MSK Redefining Cancer Treatment Data](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data)
+- We have two data files:
+  - One contains information about genetic mutations.
+  - The other contains clinical evidence (text) used by experts/pathologists to classify these mutations.
+- Both files share a common column called **ID**.
 
+### Data File Information:
+- **training_variants**: (ID, Gene, Variations, Class)
+- **training_text**: (ID, Text)
+
+## Model Traning
+<div style="text-align: justify;">
+ The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene, variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.
+</div>
 
 
-
-Key aspects include data preprocessing, training/testing, and validation processes, along with visualization of results.
+## Results
  
 | Model             | Train Log Loss | CV Log Loss | Test Log Loss | Percentage Misclassification |
 |-------------------|----------|-----------|---------|----------|

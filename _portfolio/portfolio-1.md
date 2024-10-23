@@ -60,7 +60,27 @@ The text dataset consists of clinical notes or research articles that discuss ge
   - **Removing Punctuation and Stop Words**: Eliminating common words (e.g., "and," "the") and punctuation that do not contribute significant meaning to the text.
   - **Lowercasing**: Converting all text to lowercase to ensure uniformity.
 
-- **Feature Extraction**: Using the `TfidfVectorizer`, we transform the text data into numerical features suitable for machine learning models. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure that reflects the importance of a word in a document relative to a collection of documents (corpus). By limiting the number of features to the top 1000 based on TF-IDF values, we reduce dimensionality and focus on the most relevant terms.
+## Feature Extraction
+
+### 1. TF-IDF Vectorizer
+
+Using the `TfidfVectorizer`, we transform the text data into numerical features suitable for machine learning models. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure that reflects the importance of a word in a document relative to a collection of documents (corpus). By limiting the number of features to the top 1000 based on TF-IDF values, we reduce dimensionality and focus on the most relevant terms. This process involves:
+
+- **Tokenization**: Splitting the text into individual tokens.
+- **Term Frequency Calculation**: Evaluating how often a term appears in a document.
+- **Inverse Document Frequency Calculation**: Determining the importance of the term across the entire corpus.
+- **Feature Selection**: Selecting the top 1000 terms based on their TF-IDF scores.
+
+### 2. BERT Pretrained Model
+
+For an alternative approach, we leverage the power of BERT (Bidirectional Encoder Representations from Transformers), a state-of-the-art language model pre-trained on vast amounts of text data. BERT captures the contextual meaning of words within sentences, enabling more nuanced understanding and representation of text. When using BERT, the text data is transformed into features as follows:
+
+- **Tokenization**: BERT requires a specific tokenization process that splits text into subword units.
+- **Input Representation**: The tokenized input is converted into token IDs and includes attention masks to distinguish between padding and actual tokens.
+- **Feature Extraction**: The BERT model outputs rich contextual embeddings for each token in the input, which can then be aggregated (e.g., using mean pooling) to obtain a fixed-size vector representation for the entire text input.
+
+By utilizing these two different feature extraction techniques, we can explore various model performance levels and leverage the strengths of both traditional and modern approaches to text data.
+
 
 
 ## Model Training

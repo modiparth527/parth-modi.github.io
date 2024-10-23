@@ -5,7 +5,9 @@ collection: portfolio
 ---
 
 ## Problem Statement
+<div style="text-align: justify;">
 Cancer is a complex disease that varies significantly across individuals, making accurate diagnosis and treatment challenging. Traditional diagnostic methods often struggle to account for the intricate variations in genetic mutations and the vast amount of clinical information in medical records. This project aims to address these challenges by leveraging machine learning models to predict cancer classes using both gene variations and textual data from clinical reports, thereby improving diagnostic accuracy and assisting oncologists in early detection and personalized treatment planning.
+</div>
 
 ![Cancer Diagnosis Screenshot]({{site.baseurl}}/images/1.png)
 <p align="center"><em>Figure 1: Problem Statement by Oncologist</em></p>
@@ -21,7 +23,23 @@ Cancer is a complex disease that varies significantly across individuals, making
 * Errors can be very costly.
 * Probability of a data-point belonging to each class is needed.
 
-This project focuses on predicting cancer classes using machine learning by analyzing both gene variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy and F1-score.
+## Data Set Overview
+- Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
+- We have two data files: one contains the information about the genetic mutations and the other contains the clinical evidence (text) that  human experts/pathologists use to classify the genetic mutations. 
+- Both these data files are have a common column called ID
+- <p> 
+    Data file's information:
+    <ul> 
+        <li>
+        training_variants (ID , Gene, Variations, Class)
+        </li>
+        <li>
+        training_text (ID, Text)
+        </li>
+    </ul>
+</p>
+
+This project focuses on predicting cancer classes using machine learning by analyzing gene, variations and text features (such as clinical notes or medical reports). The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene, variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.
 
 
 

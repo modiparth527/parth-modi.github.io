@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# 🤖 AI Software Developer & Healthcare ML Innovation 🏥
 
 I am an AI Software Developer passionate about advancing healthcare through artificial intelligence. My work combines deep learning expertise with healthcare applications, aiming to improve medical diagnostics and patient care. Currently at Atlas Copco - ISRA Vision GmbH, I develop AI solutions that can be adapted for medical imaging and healthcare applications.
 

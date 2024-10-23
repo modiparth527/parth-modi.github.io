@@ -8,8 +8,6 @@ date: 2023-06-11
 venue: '2023 24th International Conference on Digital Signal Processing (DSP), Rhodes, Greece'
 paperurl: 'https://www.researchgate.net/publication/372147431_A_Data-driven_Deep_Learning_Approach_for_Bitcoin_Price_Forecasting'
 citation: 'P. D. Modi, K. Arshi, P. J. Kunz and A. M. Zoubir, "A Data-driven Deep Learning Approach for Bitcoin Price Forecasting," 2023 24th International Conference on Digital Signal Processing (DSP), Rhodes (Rodos), Greece, 2023, pp. 1-4, doi: 10.1109/DSP58604.2023.10167930.'
-
-
 ---
 ![Bitcoin Deployment]({{site.baseurl}}/images/bitcoindeployment.png)
 <p align="center"><em>Figure 1: Real Time Price Prediction</em></p>

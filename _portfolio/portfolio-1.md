@@ -40,19 +40,21 @@ Cancer is a complex disease that varies significantly across individuals, making
 Data preparation is a fundamental step in the machine learning workflow. It involves cleaning, transforming, and organizing data into a format suitable for modeling. Here, we will detail the preparation process for both the gene variation dataset and the text dataset.
 </div>
 ### 1. Gene Variation Dataset
-<div style="text-align: justify;">
+
 The gene variation dataset typically contains information on specific genetic mutations associated with different cancers. The preparation steps for this dataset include:
-
+<div style="text-align: justify;">
 - **Data Collection**: In this project, we created a synthetic dataset that includes genetic information for several well-known cancer-related genes, such as **BRCA1**, **BRCA2**, **TP53**, **EGFR**, and **KRAS**. Each entry consists of the gene name, the specific mutation (variation), and a binary label indicating the presence or absence of a mutation.
-
+</div>
+<div style="text-align: justify;">
 - **Data Cleaning**: In a real-world scenario, this step would involve removing duplicates, handling missing values, and ensuring that the data types are consistent. Since our synthetic dataset is small and structured, it does not require extensive cleaning.
-
+</div>
+<div style="text-align: justify;">
 - **Data Splitting**: The dataset is divided into training and testing sets using an 80-20 split. This allows for the training of the model on one portion of the data while retaining another portion to evaluate its performance.
 </div>
 ### 2. Text Dataset
-<div style="text-align: justify;">
-The text dataset consists of clinical notes or research articles that discuss gene mutations and their links to cancer. The preparation steps for this dataset include:
 
+The text dataset consists of clinical notes or research articles that discuss gene mutations and their links to cancer. The preparation steps for this dataset include:
+<div style="text-align: justify;">
 - **Text Collection**: Similar to the gene dataset, we created a synthetic dataset that contains text entries related to cancer and genetic mutations. Each entry is associated with a label indicating the presence of a mutation.
 
 - **Text Preprocessing**: Preprocessing involves several steps to clean and prepare text data:

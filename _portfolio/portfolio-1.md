@@ -1,6 +1,6 @@
 ---
 title: "Cancer Diagnosis with Machine Learning"
-excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy.<br/><img src='/parth-modi.github.io/images/healthAI.jpg'>" 
+excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy.<br/><br/><img src='/parth-modi.github.io/images/healthAI.jpg'>" 
 collection: portfolio
 ---
 

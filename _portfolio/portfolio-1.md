@@ -35,9 +35,37 @@ Cancer is a complex disease that varies significantly across individuals, making
 - **training_variants**: (ID, Gene, Variations, Class)
 - **training_text**: (ID, Text)
 
+## Data Preparation
+
+Data preparation is a fundamental step in the machine learning workflow. It involves cleaning, transforming, and organizing data into a format suitable for modeling. Here, we will detail the preparation process for both the gene variation dataset and the text dataset.
+
+### 1. Gene Variation Dataset
+
+The gene variation dataset typically contains information on specific genetic mutations associated with different cancers. The preparation steps for this dataset include:
+
+- **Data Collection**: In this project, we created a synthetic dataset that includes genetic information for several well-known cancer-related genes, such as **BRCA1**, **BRCA2**, **TP53**, **EGFR**, and **KRAS**. Each entry consists of the gene name, the specific mutation (variation), and a binary label indicating the presence or absence of a mutation.
+
+- **Data Cleaning**: In a real-world scenario, this step would involve removing duplicates, handling missing values, and ensuring that the data types are consistent. Since our synthetic dataset is small and structured, it does not require extensive cleaning.
+
+- **Data Splitting**: The dataset is divided into training and testing sets using an 80-20 split. This allows for the training of the model on one portion of the data while retaining another portion to evaluate its performance.
+
+### 2. Text Dataset
+
+The text dataset consists of clinical notes or research articles that discuss gene mutations and their links to cancer. The preparation steps for this dataset include:
+
+- **Text Collection**: Similar to the gene dataset, we created a synthetic dataset that contains text entries related to cancer and genetic mutations. Each entry is associated with a label indicating the presence of a mutation.
+
+- **Text Preprocessing**: Preprocessing involves several steps to clean and prepare text data:
+  - **Tokenization**: Splitting the text into individual words or phrases (tokens).
+  - **Removing Punctuation and Stop Words**: Eliminating common words (e.g., "and," "the") and punctuation that do not contribute significant meaning to the text.
+  - **Lowercasing**: Converting all text to lowercase to ensure uniformity.
+
+- **Feature Extraction**: Using the `TfidfVectorizer`, we transform the text data into numerical features suitable for machine learning models. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure that reflects the importance of a word in a document relative to a collection of documents (corpus). By limiting the number of features to the top 1000 based on TF-IDF values, we reduce dimensionality and focus on the most relevant terms.
+
+
 ## Model Training
 <div style="text-align: justify;">
- The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene, variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, decision trees, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.
+ The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene, variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, logistic regression, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.
 </div>
 
 
@@ -51,5 +79,5 @@ Cancer is a complex disease that varies significantly across individuals, making
 | Logistic Regression without class balance             | 0.628          | 1.185       | 1.054         | 36.28%                       |
 | SVM                                                  | 0.739          | 1.132       | 1.063         | 36.47%                       |
 
-*Baseline: Log loss of Random Model - 2.5*
+*Baseline: Log loss of a Random Model - 2.5*
 

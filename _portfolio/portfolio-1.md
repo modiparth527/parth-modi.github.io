@@ -68,16 +68,16 @@ The text dataset consists of clinical notes or research articles that discuss ge
 ## Feature Extraction
 
 ### 1. TF-IDF Vectorizer
-
+<div style="text-align: justify;">
 Using the `TfidfVectorizer`, we transform the text data into numerical features suitable for machine learning models. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure that reflects the importance of a word in a document relative to a collection of documents (corpus). By limiting the number of features to the top 1000 based on TF-IDF values, we reduce dimensionality and focus on the most relevant terms. This process involves:
 
 - <strong>Tokenization</strong>: Splitting the text into individual tokens.
 - <strong>Term Frequency Calculation</strong>: Evaluating how often a term appears in a document.
 - <strong>Inverse Document Frequency Calculation</strong>: Determining the importance of the term across the entire corpus.
 - <strong>Feature Selection</strong>: Selecting the top 1000 terms based on their TF-IDF scores.
-
+</div>
 ### 2. BERT Pretrained Model
-
+<div style="text-align: justify;">
 For an alternative approach, we leverage the power of BERT (Bidirectional Encoder Representations from Transformers), a state-of-the-art language model pre-trained on vast amounts of text data. BERT captures the contextual meaning of words within sentences, enabling more nuanced understanding and representation of text. When using BERT, the text data is transformed into features as follows:
 
 - <strong>Tokenization</strong>: BERT requires a specific tokenization process that splits text into subword units.
@@ -85,7 +85,7 @@ For an alternative approach, we leverage the power of BERT (Bidirectional Encode
 - <strong>Feature Extraction</strong>: The BERT model outputs rich contextual embeddings for each token in the input, which can then be aggregated (e.g., using mean pooling) to obtain a fixed-size vector representation for the entire text input.
 
 By utilizing these two different feature extraction techniques, we can explore various model performance levels and leverage the strengths of both traditional and modern approaches to text data.
-
+</div>
 ## Model Training
 <div style="text-align: justify;">
 The model combines structured data (like genetic mutations) with unstructured textual information to improve classification accuracy. This involves steps like dataset preparation, feature extraction from gene variations and text, and the application of models like BERT for text, alongside traditional machine learning methods such as SVM, logistic regression, and neural networks for structured data. Performance is evaluated using standard metrics like accuracy/misclassification rate.

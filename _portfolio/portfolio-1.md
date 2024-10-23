@@ -3,7 +3,7 @@ title: "Cancer Diagnosis with Machine Learning"
 excerpt: "Leveraging machine learning techniques to improve cancer diagnosis accuracy." 
 collection: portfolio
 <div style="text-align: center;">
-  <img src="{{site.baseurl}}/images/1.png" alt="Cancer Diagnosis Screenshot" />
+  <img src="https://github.com/modiparth527/parth-modi.github.io/blob/master/images/1.png" alt="Cancer Diagnosis Screenshot" />
   <p><em>Figure 1: Cancer Diagnosis using Machine Learning</em></p>
 </div>
 ---

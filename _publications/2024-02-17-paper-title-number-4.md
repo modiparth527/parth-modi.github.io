@@ -3,7 +3,7 @@ title: "A Data-driven Deep Learning Approach for Bitcoin Price Forecasting"
 collection: publications
 category: conferences
 permalink: /publication/2023
-excerpt: 'This paper is about Prediction of Bitcoin price with Deep Learning'
+excerpt: "This paper is about Prediction of Bitcoin price with Deep Learning <br/> <img src='/parth-modi.github.io/images/bitcoin.gif'>"
 date: 2023-06-11
 venue: '2023 24th International Conference on Digital Signal Processing (DSP), Rhodes, Greece'
 paperurl: 'https://www.researchgate.net/publication/372147431_A_Data-driven_Deep_Learning_Approach_for_Bitcoin_Price_Forecasting'

@@ -85,7 +85,7 @@ Spearheading an environmental sustainability initiative:
 ## 💼 Professional Experience
 
 Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH, where I:
-* 🚀 Develop AI models for healthcare and environmental applications
+* 🚀 Develop AI models for industrial automation for defect segmentation/mask generation
 * 💾 Process large-scale datasets (800GB+) for dual-domain solutions
 * ⚡ Optimize sustainable AI deployment
 * 🌱 Lead green computing initiatives
@@ -93,9 +93,9 @@ Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH,
 ## 🎯 Teaching and Outreach
 
 * **Content Creator**
-  * 🎥 Educational content on AI in healthcare and sustainability
-  * 👥 Community of 3.5k+ learners
-  * 📚 Tutorials on medical and environmental applications
+  * 🎥 Educational content on Machine Learning and Data Science
+  * 👥 Community of 3.8k+ learners
+  * 📚 Tutorials on ML and DL with Python Handson
 
 * **DAAD Student Representative**
   * 🌍 Technical University of Darmstadt

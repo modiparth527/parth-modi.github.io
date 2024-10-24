@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<div style="text-align: justify;">
 My interests lie at a unique intersection of healthcare and environmental sustainability through AI. By developing solutions that address both medical challenges and environmental concerns, I strive to create technology that benefits human health while preserving our planet. From predicting menstrual cycles to optimizing waste segregation using object detection, my projects demonstrate the versatility of AI in solving complex real-world problems. I am particularly passionate about creating solutions that are not only technically innovative but also environmentally conscious and socially impactful. Currently, at Atlas Copco - ISRA Vision GmbH, I develop adaptable AI solutions for industrial and autonomous applications, with a strong emphasis on environmental sustainability.
-
+</div>
 ## 🌟 Featured Projects
 
 ### 🏥 AI-Powered Menstruation Prediction

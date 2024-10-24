@@ -122,5 +122,6 @@ The model combines structured data (like genetic mutations) with unstructured te
 | Logistic Regression with class balance                | 0.614          | 1.143       | 1.048         | 34.77%                       |
 | Logistic Regression without class balance             | 0.628          | 1.185       | 1.054         | 36.28%                       |
 | SVM                                                  | 0.739          | 1.132       | 1.063         | 36.47%                       |
-| BERT (base)                                          | 0.10            | 0.13       | 0.18          | 12.43%                       |
+| **BERT (base)**                                          | 0.10            | 0.13       | 0.18          | 12.43%                       |
+
 *Baseline: Log loss of a Random Model - 2.5*

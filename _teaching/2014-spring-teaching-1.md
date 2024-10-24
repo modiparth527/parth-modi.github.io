@@ -10,6 +10,7 @@ location: "Darmstadt, Germany"
 <div style="text-align: justify;">
 I am on the mission to provide free education to all the students. Here you will get complete conceptual solution of any machine learning related queries and also solution for technical coding problems. It's a promise that you will get a success in your career especially in your Engineering career after thoroughly following my lectures. Our world is far away from the costly institutes serving education nowadays.
 </div>
+
 # Infinity Solutions Concept Builder
 
 ## 🌟 About My YouTube Channel

@@ -89,7 +89,6 @@ Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH,
 * 💾 Process large-scale datasets (800GB+) for dual-domain solutions
 * ⚡ Optimize sustainable AI deployment
 * 🌱 Lead green computing initiatives
-* 🏥 Implement healthcare process optimization solutions
 
 ## 🎯 Teaching and Outreach
 

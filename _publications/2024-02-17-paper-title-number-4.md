@@ -20,3 +20,5 @@ Bitcoin as a cryptocurrency has been one of the most important digital coins and
 | Linear Regression  | 250.08    | 383.18     | 562.19   | 691.23    | 0.03      |
 | LSTM               | 167.27    | 288.14     | 479.77   | 650.81    | 0.04      |
 | Bi-LSTM            | 160.76    | 279.93     | 414.51   | 561.76    | 0.03      |
+
+For more details, refer to the [GitHub repository](https://github.com/Parth527/Bitcoin-Forecasting).

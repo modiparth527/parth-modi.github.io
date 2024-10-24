@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "🤖 Parth Modi - AI Software Developer & Healthcare ML Specialist 🏥"
+title: "🤖 Hello there ! I am Parth"
 author_profile: true
 redirect_from: 
   - /about/

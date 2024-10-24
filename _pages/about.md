@@ -109,5 +109,5 @@ Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH,
 | Course Name | Instructor | Progress | Certificate |
 |------------|------------|----------|-------------|
 | [End-to-End MLOps Bootcamp: Build, Deploy, and Automate ML with Data Science Projects](https://www.udemy.com/course/complete-mlops-bootcamp-with-10-end-to-end-ml-projects/?couponCode=MTST7102224B2) | Krish Naik | 40% | 🔄 In Progress |
-| [Complete Guide to Building, Deploying, and Optimizing Generative AI with Langchain and Huggingface](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/learn/lecture/44580259?start=0#overview) | Lazy Programmer | 60% | 🔄 In Progress |
+| [Complete Guide to Building, Deploying, and Optimizing Generative AI with Langchain and Huggingface](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/learn/lecture/44580259?start=0#overview) | Krish Niak | 30% | 🔄 In Progress |
 

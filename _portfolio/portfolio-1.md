@@ -125,3 +125,8 @@ The model combines structured data (like genetic mutations) with unstructured te
 | **BERT (base)**                                          | 0.10            | 0.13       | 0.18          | 12.43%                       |
 
 *Baseline: Log loss of a Random Model - 2.5*
+
+## It does not stop here - Further Improvements Literature
+
+* (CancerLLM: A Large Language Model in Cancer Domain)[https://arxiv.org/abs/2406.10459]
+* (BioGPT)[https://github.com/microsoft/BioGPT]

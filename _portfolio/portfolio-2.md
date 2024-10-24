@@ -1,6 +1,6 @@
 ---
 title: "ECG based Atrial Fillibration Detection using AI"
-excerpt: "Short description of portfolio item number 2 <br/> <br/><img src='/parth-modi.github.io/images/AF_intro.png'>"
+excerpt: "Detect abnormal heartbeats with higher accuracy with AI <br/> <br/><img src='/parth-modi.github.io/images/AF_intro.png'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Student Exam Performance Indicator End To End Project"
-excerpt: "Demonstrate modular coding with end-to-end data science pipeline with deployment <br/> <br/><img src='/parth-modi.github.io/images/AWS.jpeg'>"
+excerpt: "Demonstrate modular coding with end-to-end data science pipeline with AWS deployment <br/> <br/><img src='/parth-modi.github.io/images/AWS.jpg'>"
 collection: portfolio
 ---
 

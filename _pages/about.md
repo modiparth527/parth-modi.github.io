@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "🤖 Hello there! I am Parth"
+title: "💡 Hello there! I am Parth"
 author_profile: true
 redirect_from: 
   - /about/
@@ -101,4 +101,13 @@ Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH,
   * 🌍 Technical University of Darmstadt
   * 🤝 Promoting sustainable technology initiatives
   * 📅 Organizing healthcare and environmental tech events
+
+## 📚 Current Learning Journey
+
+### Udemy Courses In Progress
+
+| Course Name | Instructor | Progress | Certificate |
+|------------|------------|----------|-------------|
+| [End-to-End MLOps Bootcamp: Build, Deploy, and Automate ML with Data Science Projects](https://www.udemy.com/course/complete-mlops-bootcamp-with-10-end-to-end-ml-projects/?couponCode=MTST7102224B2) | Krish Naik | 40% | 🔄 In Progress |
+| [Complete Guide to Building, Deploying, and Optimizing Generative AI with Langchain and Huggingface](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/learn/lecture/44580259?start=0#overview) | Lazy Programmer | 60% | 🔄 In Progress |
 

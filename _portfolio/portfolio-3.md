@@ -1,6 +1,6 @@
 ---
 title: "Student Exam Performance Indicator End To End Project"
-excerpt: "Demonstrate modular coding with end-to-end data science pipeline with deployment <br/> <br/><img src='/parth-modi.github.io/images/AF_intro.png'>"
+excerpt: "Demonstrate modular coding with end-to-end data science pipeline with deployment <br/> <br/><img src='/parth-modi.github.io/images/AWS.jpeg'>"
 collection: portfolio
 ---
 
@@ -18,7 +18,7 @@ The main **aim** of the project is to demonsrate **modular coding with necessary
 
 ## AWS BeanStalk Deployment [AWS Deployment Link ](http://studentperformance-env.eba-akmabera.eu-north-1.elasticbeanstalk.com/predictdata) (If the link does not work try removing `s` from https url)
 
-![Logo]({{site.baseurl}}/images/Screenshot 2024-09-23 153701.jpg)
+![Logo]({{site.baseurl}}/images/deployment_student.png)
 
 
 ## Overview

@@ -6,8 +6,9 @@ collection: portfolio
 
 
 ## Overview
+<div style="text-align: justify;">
 This project focuses on the application of artificial intelligence in medicine, specifically for detecting Atrial Fibrillation (AF) from single lead ECG signals. My approach utilizes deep learning techniques, including Convolutional Neural Networks (CNN), Long Short Term Memory (LSTM) and Generative Adversarial Networks (GANs), to improve the accuracy of AF detection.
-
+</div>
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
@@ -41,7 +42,7 @@ To address the overfitting issue caused by class imbalances, we implemented GANs
    <p align="center"><em>Figure 3: Confusion Matrix from CNN-LSTM network</em></p>
 
 ## Results
-The results from both the CNN and GAN methods are detailed below. The GAN approach significantly improved the model's performance by addressing the class imbalance and reducing overfitting.
+The results from both the CNN and GAN methods are detailed below. The GAN approach significantly improved the model's performance by addressing the class imbalance and reducing overfitting.<br/>
 ![Results]({{site.baseurl}}/images/results.png)
 
 

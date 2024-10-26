@@ -128,5 +128,5 @@ The model combines structured data (like genetic mutations) with unstructured te
 
 ## It does not stop here - Further Improvements Literature
 
-* (CancerLLM: A Large Language Model in Cancer Domain)[https://arxiv.org/abs/2406.10459]
-* (BioGPT)[https://github.com/microsoft/BioGPT]
+* [CancerLLM: A Large Language Model in Cancer Domain](https://arxiv.org/abs/2406.10459)
+* [BioGPT](https://github.com/microsoft/BioGPT)

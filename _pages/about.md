@@ -7,100 +7,119 @@ redirect_from:
   - /about.html
 ---
 <div style="text-align: justify;">
-My interests lie at a unique intersection of healthcare and environmental sustainability through AI. By developing solutions that address both medical challenges and environmental concerns, I strive to create technology that benefits human health while preserving our planet. From predicting menstrual cycles to optimizing waste segregation using object detection, my projects demonstrate the versatility of AI in solving complex real-world problems. I am particularly passionate about creating solutions that are not only technically innovative but also environmentally conscious and socially impactful. Currently, at Atlas Copco - ISRA Vision GmbH, I develop adaptable AI solutions for industrial and autonomous applications, with a strong emphasis on environmental sustainability.
+I am a passionate AI Software Developer with expertise in machine learning, deep learning, computer vision, and generative AI. My work focuses on creating innovative, data-driven solutions that optimize industrial processes and deliver real-world impact. From developing vision transformer architectures to deploying scalable AI models, I thrive at the intersection of cutting-edge technology and practical applications. Currently, at ISRA Vision GmbH (part of Atlas Copco), I build advanced AI solutions for industrial automation, leveraging tools like PyTorch, TensorFlow, and Kubernetes to drive efficiency and scalability.
 </div>
+
 ## 🌟 Featured Projects
 
-### 🏥 AI-Powered Menstruation Prediction
-Leading an innovative project in women's healthcare:
+### 🖼️ Vision Transformer for Synthetic Data Generation
+Leading a generative AI initiative at ISRA Vision:
 
-* 🎯 **Vision**: Developing an AI-powered system for accurate menstruation cycle prediction
+* 🎯 **Vision**: Developing vision transformer architectures for synthetic data generation
 * 💡 **Innovation**:
-  * Integrating multiple data sources including hormonal indicators
-  * Advanced time series analysis and deep learning implementation
-  * Incorporating personalized health factors
+  * Implemented advanced deep learning models for data synthesis
+  * Integrated rule-based decision agents for automated workflows
+  * Reduced data acquisition costs by 30% through generative AI
 * 🌍 **Impact**:
-  * Empowering women with accurate cycle predictions
-  * Supporting early detection of health irregularities
-  * Enabling data-driven healthcare decisions
+  * Enabled scalable AI training with synthetic datasets
+  * Streamlined industrial inspection processes
+  * Enhanced model robustness for real-world applications
 
-### ♻️ Smart Waste Segregation System
-Spearheading an environmental sustainability initiative:
+### 🚗 Defect Detection for Car Surface Inspection
+Spearheading an AI-driven quality control project at Atlas Copco:
 
-* 🎯 **Vision**: Revolutionizing waste management through AI-powered segregation
+* 🎯 **Vision**: Enhancing car surface inspection through deep learning
 * 💡 **Innovation**:
-  * Real-time waste classification using computer vision
-  * Multi-material detection and sorting algorithms
-  * IoT integration for automated waste processing
+  * Developed U-Net and ResNet-based models for defect detection
+  * Incorporated adaptive gamma correction for image enhancement
+  * Achieved 70% structural similarity index (SSIM) and 10% accuracy improvement
 * 🌍 **Impact**:
-  * 85% improvement in recycling efficiency
-  * Reduced contamination in recycling streams
-  * Automated sorting of multiple waste categories
+  * Reduced labor costs by 90% through automated inspection
+  * Processed 800GB+ image datasets for precise 2D/3D mapping
+  * Improved quality control efficiency in automotive manufacturing
+
+## 📝 Recent Blog Posts
+
+### 🖼️ Building a CLIP-like Model for Image-Text Alignment
+Sharing insights on multimodal AI development:
+
+* 🎯 **Vision**: Guiding developers to build a CLIP-like model for image-text alignment
+* 💡 **Innovation**:
+  * Step-by-step tutorial using PyTorch and Hugging Face transformers
+  * Covers data preparation, model training, and evaluation for multimodal learning
+  * Demonstrates practical implementation of vision-language models
+* 🌍 **Impact**:
+  * Empowers developers to create AI systems bridging images and text
+  * Enhances understanding of transformer-based architectures
+  * Published on [Medium, April 2025](https://medium.com/@modiparth527/building-a-clip-like-model-for-image-text-alignment-a-step-by-step-guide-347d3230fc20)
 
 ## 🎯 Research Interests
 
-### Healthcare Focus:
-* 🏥 AI in Medical Diagnostics
-* 👥 Women's Health Technology
-* 🔬 Medical Image Processing
-* 📝 Clinical NLP Applications
+### AI and Machine Learning:
+* 🤖 Deep Learning and Computer Vision
+* 📊 Generative AI and Vision Transformers
+* 🔄 MLOps and Scalable AI Deployment
+* 📈 Time Series Forecasting with Transformers
 
-### Environmental Focus:
-* ♻️ Smart Waste Management
-* 🌱 Sustainable Resource Optimization
-* 🏭 Industrial Process Efficiency
-* 🔋 Energy Conservation AI
+### Industrial Applications:
+* 🏭 Industrial Automation and Quality Control
+* 🔍 Defect Detection and Image Processing
+* 📡 Large-Scale Data Processing
+* ⚙️ Sustainable AI Optimization
 
 ## 🏆 Recent Achievements
 
-* **Patent Application**
-  * 📋 Filed patent for innovative AI technology in industrial applications
-  * ⚡ Achieved 80% process time reduction through generative AI implementation
+* **IEEE Publication (2023)**
+  * 📚 Published research on data-driven deep learning for Bitcoin price forecasting
+  * 📊 Leveraged transformer-based models for 22% accuracy improvement over ARIMA
 
-* **AI in Medicine Challenge 2022 - 3rd Place Winner**
-  * 💡 Developed ECG abnormality detection system (0.85 F1 score)
-  * 📈 90% reduction in healthcare specialists' workload
+* **Deutschlandstipendium Scholarship**
+  * 🌟 Awarded for academic excellence at Technical University of Darmstadt
+  * 📖 Top performer in Information and Communication Engineering
 
-* **Environmental Innovation Award 2023**
-  * 🌱 Developed AI-powered waste classification system
-  * ♻️ Achieved 85% accuracy in multi-material sorting
-  * 📊 Reduced manual sorting needs by 70%
-
-* **IEEE Publications (2023)**
-  * 📚 Published research on data-driven deep learning approaches
-  * 📊 Focus on Multimodal learning
+* **TCS CodeVita Qualifier**
+  * 💻 Recognized for competitive programming and algorithmic problem-solving
+  * 🧠 Demonstrated proficiency in data structures and algorithms
 
 ## 🎓 Education
 
 * M.Sc. in Information and Communication Engineering
-  * 🏛️ Technical University of Darmstadt (GPA: 1.3)
-  * 🌟 Top 2% - Germany Student Scholarship Holder
-  * 🔬 Dual focus: Medical AI and Sustainable AI Systems
+  * 🏛️ Technical University of Darmstadt (GPA: 2.0/5.0, ~3.5/4.0 equivalent)
+  * 🌟 Deutschlandstipendium Holder
+  * 🔬 Relevant Coursework: Machine Learning, Deep Learning, Image Processing, Data Structures and Algorithms
 
-* B.Sc. in Electronics and Communication Engineering
-  * 🎓 Gujarat Technological University
-  * 📑 Mini Thesis: Automatic Waste Segregation using Object Detection
-  * 📑 Thesis: Women Menstruation Prediction using Machine Learning
+* B.Eng. in Electronics and Communication Engineering
+  * 🎓 Vishwakarma Government Engineering College, Ahmedabad (GPA: 8.8/10)
+  * 📑 Focus: Signal Processing and Embedded Systems
 
 ## 💼 Professional Experience
 
-Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH, where I:
-* 🚀 Develop AI models for industrial automation for defect segmentation/mask generation
-* 💾 Process large-scale datasets (800GB+) for dual-domain solutions
-* ⚡ Optimize sustainable AI deployment
-* 🌱 Lead green computing initiatives
+**AI Software Developer**, ISRA Vision GmbH (Atlas Copco), Germany (Oct 2023 – Dec 2024)
+* 🚀 Develop vision transformer models for generative AI and industrial automation
+* 💾 Deploy scalable AI solutions using Docker and Azure Kubernetes Service
+* ⚡ Optimize workflows with rule-based agentic systems, reducing costs by 30%
+
+**Software Development Engineer**, Atlas Copco, Germany (Mar 2022 – Sep 2023)
+* 🖼️ Built U-Net and ResNet models for car surface defect detection, achieving 90% labor cost reduction
+* 📊 Processed 800GB+ datasets for 2D/3D mapping and quality control
+* 🔧 Enhanced model accuracy by 10% with adaptive image processing techniques
+
+**Data Science Intern**, Spryfox GmbH, Darmstadt (Oct 2021 – Mar 2022)
+* 📈 Developed machine learning models (XGBoost, Logistic Regression) for pet disease prediction, improving accuracy by 20%
+* 💻 Engineered end-to-end data science pipeline with AWS deployment
+* 🔍 Conducted statistical analysis for customer spending insights
 
 ## 🎯 Teaching and Outreach
 
-* **Content Creator**
-  * 🎥 Educational content on Machine Learning and Data Science
-  * 👥 Community of 3.8k+ learners
-  * 📚 Tutorials on ML and DL with Python Handson
+* **YouTube Content Creator**
+  * 🎥 Create educational content on machine learning, data science, and programming
+  * 👥 Community of 3.9k+ subscribers
+  * 📚 Tutorials on Python, PyTorch, and deep learning applications
 
 * **DAAD Student Representative**
   * 🌍 Technical University of Darmstadt
-  * 🤝 Promoting sustainable technology initiatives
-  * 📅 Organizing healthcare and environmental tech events
+  * 🤝 Led cross-cultural communications for 100+ international students
+  * 📅 Organized tech-focused workshops and events
 
 ## 📚 Current Learning Journey
 
@@ -109,5 +128,4 @@ Currently working as an AI Software Developer at Atlas Copco - ISRA Vision GmbH,
 | Course Name | Instructor | Progress | Certificate |
 |------------|------------|----------|-------------|
 | [End-to-End MLOps Bootcamp: Build, Deploy, and Automate ML with Data Science Projects](https://www.udemy.com/course/complete-mlops-bootcamp-with-10-end-to-end-ml-projects/?couponCode=MTST7102224B2) | Krish Naik | 40% | 🔄 In Progress |
-| [Complete Guide to Building, Deploying, and Optimizing Generative AI with Langchain and Huggingface](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/learn/lecture/44580259?start=0#overview) | Krish Niak | 30% | 🔄 In Progress |
-
+| [Complete Guide to Building, Deploying, and Optimizing Generative AI with Langchain and Huggingface](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/learn/lecture/44580259?start=0#overview) | Krish Naik | 30% | 🔄 In Progress |

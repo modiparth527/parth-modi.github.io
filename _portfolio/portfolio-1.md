@@ -1,3 +1,9 @@
+---
+title: "ECG based Atrial Fillibration Detection using AI"
+excerpt: "Detect abnormal heartbeats with higher accuracy with AI <br/> <br/><img src='/parth-modi.github.io/images/AF_intro.png'>"
+collection: portfolio
+---
+
 # 🧠 LangChain Chatbot with Ollama and Google Gemma
 
 A minimal, end-to-end conversational AI web app that uses the **LangChain framework**, **Ollama backend**, and **Google’s Gemma 2B model**. It delivers an interactive chatbot experience with a clean interface built using **Streamlit**.

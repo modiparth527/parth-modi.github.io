@@ -1,94 +1,54 @@
 ---
-title: "ECG based Atrial Fillibration Detection using AI"
-excerpt: "Detect abnormal heartbeats with higher accuracy with AI <br/> <br/><img src='/parth-modi.github.io/images/AF_intro.png'>"
+title: "LangChain Chatbot with Ollama and Google Gemma"
+excerpt: "An intelligent Q&A chatbot using LangChain, Ollama, and the Google Gemma 2B model.<br/><br/><img src='/parth-modi.github.io/images/ezgif-6eded561a97119.gif'>"
 collection: portfolio
 ---
 
-# 🧠 LangChain Chatbot with Ollama and Google Gemma
+## Overview
+<div style="text-align: justify;">
+This project showcases an interactive chatbot built using <strong>LangChain</strong>, <strong>Ollama</strong>, and <strong>Google’s Gemma 2B</strong> large language model. The application allows users to ask natural language questions and receive AI-generated responses with real-time feedback. It demonstrates practical integration of LLMs using a modular and observable architecture.
+</div>
 
-A minimal, end-to-end conversational AI web app that uses the **LangChain framework**, **Ollama backend**, and **Google’s Gemma 2B model**. It delivers an interactive chatbot experience with a clean interface built using **Streamlit**.
+## Table of Contents
+- [Introduction](#introduction)
+- [System Architecture](#system-architecture)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
 
----
+## Introduction
+The chatbot application uses the `gemma:2b` model served locally via Ollama and orchestrated using LangChain. The user interface is built in Streamlit, and optional observability is enabled using LangSmith. This project is an example of how lightweight LLMs can be used efficiently in production-ready apps.
 
-## 🔍 Overview
+## System Architecture
 
-This project demonstrates how to:
+### Prompt Engineering & LangChain
+- A predefined system message and user query template are used for consistent interactions.
+- The LangChain framework handles chaining and output parsing.
 
-- Integrate **LLMs** (like Gemma 2B) locally via **Ollama**
-- Use **LangChain** to manage prompt engineering and response parsing
-- Create a user-friendly interface with **Streamlit**
-- Optionally connect with **LangSmith** for observability
+### Ollama LLM Backend
+- The Gemma 2B model is served locally through Ollama for low-latency inference.
+- This avoids dependency on external APIs for inference.
 
-The core use case is to build intelligent Q&A interfaces with customizable system prompts.
+### Streamlit Frontend
+- A lightweight Streamlit interface is provided for easy interaction.
+- Users can type questions and get answers in real time.
 
----
+![Architecture Diagram](/parth-modi.github.io/images/langchain_architecture.png)
+<p align="center"><em>Figure 1: System Architecture Overview</em></p>
 
-## 🎯 Key Features
+## Demo
+![LangChain Chatbot Demo](/parth-modi.github.io/images/ezgif-6eded561a97119.gif)
+<p align="center"><em>Figure 2: Real-time interaction with the chatbot</em></p>
 
-- ✨ Lightweight and fast local inference with `gemma:2b`
-- 🧱 Modular code using LangChain chains and parsers
-- 🔧 `.env` driven configuration (ideal for deployment)
-- 📊 Optional LangSmith tracing for debugging and monitoring
+## Technologies Used
 
----
-
-## 🖥️ Demo
-
-![LangChain Chatbot Demo](ezgif-6eded561a97119.gif)
-
----
-
-## ⚙️ Tech Stack
-
-- **Python**
-- **LangChain**
-- **Streamlit**
-- **Ollama** (LLM backend)
-- **Google Gemma 2B**
-- **LangSmith** (optional for tracing)
-- **dotenv** for config management
-
----
-
-## 🛠️ Setup Instructions
-
-1. Clone the repo  
-2. Install dependencies: `pip install -r requirements.txt`  
-3. Set your `.env` variables (`LANGCHAIN_API_KEY`, `LANGCHAIN_PROJECT`)  
-4. Run Ollama and download the model:  
-   ```bash
-   ollama run gemma:2b
-   ```
-5. Launch the app:  
-   ```bash
-   streamlit run app.py
-   ```
+- **LangChain** – for prompt orchestration and chaining
+- **Ollama** – to serve Gemma 2B LLM locally
+- **Google Gemma 2B** – open-source LLM for inference
+- **Streamlit** – frontend interface
+- **LangSmith** – optional observability for debugging chains
+- **Python-dotenv** – for secure environment configuration
 
 ---
 
-## 📁 Project Structure
+> 💡 This project highlights the power of local LLMs for real-world use cases and the potential of open-source tools in delivering high-quality AI applications.
 
-```
-.
-├── app.py            # Main Streamlit application
-├── .env              # Environment variables
-├── demo.gif          # Demo video as GIF
-├── requirements.txt  # Dependencies
-└── README.md
-```
-
----
-
-## 📌 Why This Project?
-
-This project reflects my passion for practical LLM applications and full-stack ML integration. It’s lightweight, fast, and demonstrates real-world use of modern AI tooling — perfect for solo devs or rapid prototyping in enterprise contexts.
-
----
-
-## 🔗 Live Demo / GitHub
-
-> 🔗 [GitHub Repository](https://github.com/yourusername/langchain-gemma-chatbot)
-
----
-
-Let me know if you'd like a deployable version (e.g., on Hugging Face Spaces or Streamlit Community Cloud) for embedding in your portfolio.

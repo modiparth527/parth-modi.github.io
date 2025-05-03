@@ -32,8 +32,6 @@ The chatbot application uses the `gemma:2b` model served locally via Ollama and 
 - A lightweight Streamlit interface is provided for easy interaction.
 - Users can type questions and get answers in real time.
 
-![Architecture Diagram](/parth-modi.github.io/images/langchain_architecture.png)
-<p align="center"><em>Figure 1: System Architecture Overview</em></p>
 
 ## Demo
 ![LangChain Chatbot Demo](/parth-modi.github.io/images/ezgif-6eded561a97119.gif)

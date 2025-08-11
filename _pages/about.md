@@ -94,7 +94,7 @@ Sharing insights on multimodal AI development:
 
 ## 💼 Professional Experience
 
-**AI Software Developer**, ISRA Vision GmbH (Atlas Copco), Germany (Oct 2023 – Dec 2024)
+**AI Software Developer**, ISRA Vision GmbH (Atlas Copco), Germany (Oct 2023 – Jun 2025)
 * 🚀 Develop vision transformer models for generative AI and industrial automation
 * 💾 Deploy scalable AI solutions using Docker and Azure Kubernetes Service
 * ⚡ Optimize workflows with rule-based agentic systems, reducing costs by 30%
